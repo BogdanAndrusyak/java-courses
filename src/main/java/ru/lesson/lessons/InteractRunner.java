@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 import java.util.Scanner;
 
 /** 
@@ -15,7 +17,12 @@ public class InteractRunner {
 				String first = reader.next();
 				System.out.println("Enter second arg: ");
 				String second = reader.next();
-				calc.add(Integer.valueOf(first), Integer.valueOf(second));
+				try {
+					calc.div(Integer.valueOf(first), Integer.valueOf(second));
+				} catch (UserException e) {
+					System.out.println(e.getMessage());
+					System.out.println("Please enter two args.");
+				}
 				System.out.println("Result: " + calc.getResult());
 				calc.clearResult();
 				System.out.println("Exit : yes/no ");
