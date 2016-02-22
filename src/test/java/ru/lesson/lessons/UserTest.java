@@ -1,6 +1,7 @@
 package ru.lesson.lessons;
 
 import org.junit.Test;
+import ru.lesson.lessons.lesson_10.User;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package ru.lesson.lessons;
+package ru.lesson.lessons.lesson_10;
 
 public class User {
     private String id;

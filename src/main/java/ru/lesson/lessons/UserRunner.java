@@ -1,5 +1,7 @@
 package ru.lesson.lessons;
 
+import ru.lesson.lessons.lesson_10.User;
+
 import java.util.*;
 
 public class UserRunner {
